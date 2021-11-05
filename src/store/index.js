@@ -3,7 +3,7 @@
  * @version:
  * @Author: WANGCHUNYUAN
  * @Date: 2021-11-02 23:59:30
- * @LastEditTime: 2021-11-05 17:11:41
+ * @LastEditTime: 2021-11-05 17:13:18
  */
 import Vue from 'vue'
 import Vuex from 'vuex'
@@ -30,6 +30,6 @@ export default new Vuex.Store({
   state: {},
   mutations: {},
   actions: {},
-  modules
+  modules,
   plugins: [vuexLocal.plugin]
 })
